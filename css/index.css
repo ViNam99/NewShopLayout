@@ -63,6 +63,35 @@ header, section, footer, aside, nav, main, article, figure {
 }
 /* carousel */
 .carousel img{
-    width: 100%
+    width: 100%;
 }
-
+/* products*/
+.products h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0;
+    color: #2b5aba
+}
+.products__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 85%;
+    margin: 0 auto;
+}
+.products__items{
+    border: solid 0.1rem #b69393;
+    box-shadow: 5px 5px 5px #666;
+    -moz-box-shadow: 5px 5px 5px #666;
+    -webkit-box-shadow: 5px 5px 5px #666;
+}
+.products__items p{
+    padding-top: 1rem
+}
+.products__items button{
+    padding: 1rem;
+    border: solid 0.2rem orange;
+    margin-top: 1rem
+}
