@@ -194,3 +194,65 @@ header, section, footer, aside, nav, main, article, figure {
     margin-top: 0.5rem;
     cursor: pointer
 }
+/* trends */
+.trends{
+    background-color: #f6f6f6;
+    margin-top: 5rem;
+    position: relative;
+}
+.trends h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 5rem 0;
+    color: #2b5aba
+}
+.trends__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5rem;
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem
+}
+.trends__content img{
+    width: 100%
+}
+.trends__items{
+    position: relative;
+}
+.trends__circle , .trends__bg{
+    position: absolute;
+} 
+.trends__circle{
+    top: 1rem;
+    right: 1rem;
+    background-color: #2b5aba;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.trends__circle p{
+    line-height: 4.5rem
+}
+.trends__bg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    background-color: rgba(43, 90, 186,0.6);
+    height: 5rem;
+    width: 100%;
+    bottom: 0.7rem;
+}
+.trends__line::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 0.2rem;
+    position: absolute;
+    top: 7.2rem;
+}
+    
+ 
