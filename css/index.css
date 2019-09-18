@@ -65,6 +65,29 @@ header, section, footer, aside, nav, main, article, figure {
 .carousel img{
     width: 100%;
 }
+/* advertisement */
+.advertisement__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.advertisement img{
+    width: 100%;
+}
+.advertisement__right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1.5rem
+}
+.advertisement__items img{
+    height: 31rem
+}
+.advertisement__img2{
+    grid-column: 1 / span 2;
+}
 /* products*/
 .products h2{
     text-align: center;
@@ -78,7 +101,7 @@ header, section, footer, aside, nav, main, article, figure {
     align-items: center;
     text-align: center;
     font-size: 1.8rem;
-    width: 85%;
+    width: 87%;
     margin: 0 auto;
 }
 .products__items{
