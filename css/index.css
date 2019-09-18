@@ -61,4 +61,8 @@ header, section, footer, aside, nav, main, article, figure {
     color: white;
     margin: 2rem;
 }
+/* carousel */
+.carousel img{
+    width: 100%
+}
 
