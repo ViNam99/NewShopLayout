@@ -109,6 +109,7 @@ header, section, footer, aside, nav, main, article, figure {
     box-shadow: 5px 5px 5px #666;
     -moz-box-shadow: 5px 5px 5px #666;
     -webkit-box-shadow: 5px 5px 5px #666;
+    height: 55.5rem;
 }
 .products__items p{
     padding-top: 1rem
@@ -116,5 +117,48 @@ header, section, footer, aside, nav, main, article, figure {
 .products__items button{
     padding: 1rem;
     border: solid 0.2rem orange;
-    margin-top: 1rem
+    margin-top: 0.5rem;
+    cursor: pointer
+}
+/* banner */
+.banner{
+    background-image: url("../img/ban1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.banner__content{
+    width: 100%
+}
+.banner__p1{
+    font-size: 4rem
+}
+.banner__p2{
+    font-size: 6rem;
+    margin-top: 4rem
+}
+.banner__content button{
+    padding: 1rem ;
+    color: white;
+    background-color: orange;
+    border: none;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+.banner__line::after{
+    content: '';
+    display: block;
+    width: 100%;
+   background-color: rgba(255, 255,255, 0.5);
+    height: 0.1rem;
+    position: absolute;
+    top: 25rem
 }
