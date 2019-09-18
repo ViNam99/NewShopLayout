@@ -162,3 +162,35 @@ header, section, footer, aside, nav, main, article, figure {
     position: absolute;
     top: 25rem
 }
+/* arrivals */
+.arrivals h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0;
+    color: #2b5aba
+}
+.arrivals__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 87%;
+    margin: 0 auto;
+}
+.arrivals__items{
+    border: solid 0.1rem #b69393;
+    box-shadow: 5px 5px 5px #666;
+    -moz-box-shadow: 5px 5px 5px #666;
+    -webkit-box-shadow: 5px 5px 5px #666;
+    height: 55.5rem;
+}
+.arrivals__items p{
+    padding-top: 1rem
+}
+.arrivals__items button{
+    padding: 1rem;
+    border: solid 0.2rem orange;
+    margin-top: 0.5rem;
+    cursor: pointer
+}
