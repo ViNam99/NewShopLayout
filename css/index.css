@@ -11,3 +11,54 @@ html,body{
 header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
+/* header */
+.header{
+    background-color: #4267B2;
+    color: white;
+    font-size: 1.8rem;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5rem;
+    width: 71%;
+    margin: 0 auto
+}
+.header ul {
+    list-style: none;
+    display: flex;
+
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 2.5rem
+}
+/* navbar */
+.navbar{
+    font-size: 1.8rem;
+    color: white;
+    background-color: #2b5aba;
+    padding: 3rem 0;
+}
+.navbar__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 235px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+}
+
